@@ -29,7 +29,7 @@ export default function NavBar() {
     >
       <Link to={"/"}>
         <div className="md:hidden min-w-22 h-11.25 flex items-center">
-          <ArrowLeft />
+          <ArrowLeft className="text-accent-dark" />
         </div>
         <img
           src="./assets/icons/logo.svg"
