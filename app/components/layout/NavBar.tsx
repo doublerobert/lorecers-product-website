@@ -39,7 +39,7 @@ export default function NavBar() {
       </Link>
       <nav aria-label="Main" className="relative">
         <button
-          className="md:hidden text-accent-dark text-2xl font-bold py-1 cursor-pointer px-3"
+          className="md:hidden text-accent-dark text-2xl font-bold py-1 cursor-pointer px-3 hover:border-b-2 hover:border-b-accent-hover"
           onClick={toggleNavLinks}
         >
           {navLinks.find(({ path }) => location.pathname === path)?.name ||
@@ -55,7 +55,7 @@ export default function NavBar() {
           {navLinks.map(({ path, name }) => (
             <li
               key={path}
-              className={`${location.pathname === path ? "border-b-2 border-b-accent font-bold  hover:border-b-accent-dark" : ""} flex justify-center items-center text-lg py-2 px-1 transition-colors text-accent-dark  `}
+              className={`${location.pathname === path ? "border-b-2 border-b-accent font-bold  hover:border-b-accent-dark" : "hover:border-b-2 hover:border-b-accent-hover"} flex justify-center items-center text-lg py-2 px-1 transition-colors text-accent-dark `}
             >
               <Link to={path}>{name}</Link>
             </li>
