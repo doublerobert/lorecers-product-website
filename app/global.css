@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@import "./fonts.css";
+
+@theme {
+  --font-sans:
+    "Inria Sans", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-display:
+    "Comic Neue", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  --color-primary: #be9754;
+  --color-primary-strong: #a16703;
+  --color-primary-soft: #fdcb76;
+
+  --color-accent: #920497;
+  --color-accent-dark: #410243;
+
+  --color-bg: #eaeaea;
+  --color-surface: #ffffff;
+
+  --color-text: #191919;
+  --color-muted: #555555;
+  --color-subtle: #a9a9a9;
+
+  --color-black: #191919;
+  --color-white: #ffffff;
+}
+
+html,
+body {
+  font-family: "Inria Sans", ui-sans-serif, system-ui;
+  /* @apply bg-white dark:bg-gray-950; */
+}
+
+/* @media (prefers-color-scheme: dark) {
+  color-scheme: dark;
+} */

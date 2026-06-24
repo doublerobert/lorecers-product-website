@@ -1,0 +1,270 @@
+[
+  {
+    "id": "prod_001",
+    "slug": "ariana-in-blue-adire",
+    "name": "Ariana in Blue Adire",
+    "description": "Elegant blue adire dress crafted with traditional patterns and a modern feminine fit.",
+    "brand": "Ariana",
+    "category": "Dresses",
+    "tags": ["adire", "traditional", "african fashion"],
+    "price": {
+      "amount": 85000
+    },
+    "images": [
+      { "url": "./api/images/products/ariana-blue-adire-1.webp", "alt": "Ariana blue adire dress front view" }
+    ],
+    "variants": [
+      {
+        "id": "var_001a",
+        "color": "Blue",
+        "colorCode": "#0000FF",
+        "sizes": ["S", "M", "L", "XL", "2XL"],
+        "sku": "ARI-BLU-001",
+        "images": [],
+        "stock": { "quantity": 8 }
+      }
+    ],
+    "rating": { "average": 4.9, "count": 120 },
+    "isFeatured": true,
+    "isNew": true,
+    "createdAt": "2026-06-23T10:00:00Z",
+    "updatedAt": "2026-06-23T10:00:00Z"
+  },
+
+  {
+    "id": "prod_002",
+    "slug": "eden-in-adire",
+    "name": "Eden in Adire",
+    "description": "A beautiful purple adire outfit combining heritage style with contemporary elegance.",
+    "brand": "Eden",
+    "category": "Dresses",
+    "tags": ["adire", "purple", "luxury"],
+    "price": {
+      "amount": 90000
+    },
+    "images": [
+      { "url": "./api/images/products/eden-purple-adire-1.webp", "alt": "Eden purple adire dress" }
+    ],
+    "variants": [
+      {
+        "id": "var_002a",
+        "color": "Purple",
+        "colorCode": "#800080",
+        "sizes": ["S", "M", "L", "XL"],
+        "sku": "EDN-PUR-001",
+        "images": [],
+        "stock": { "quantity": 5 }
+      }
+    ],
+    "rating": { "average": 4.7, "count": 80 },
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-06-20T10:00:00Z",
+    "updatedAt": "2026-06-22T10:00:00Z"
+  },
+
+  {
+    "id": "prod_003",
+    "slug": "ariana-dress-in-brocade",
+    "name": "Ariana Dress in Brocade",
+    "description": "Luxury brocade dress designed with a premium finish for elegant occasions.",
+    "brand": "Ariana",
+    "category": "Dresses",
+    "tags": ["brocade", "luxury", "occasion"],
+    "price": {
+      "amount": 85000
+    },
+    "images": [
+      { "url": "./api/images/products/ariana-brocade-1.webp", "alt": "Ariana brocade dress" }
+    ],
+    "variants": [
+      {
+        "id": "var_003a",
+        "color": "Orange",
+        "colorCode": "#FFA500",
+        "sizes": ["S", "M", "L", "XL", "2XL"],
+        "sku": "ARI-BRO-ORG-001",
+        "images": [
+          { "url": "./api/images/products/ariana-brocade-orange-1.webp", "alt": "Ariana orange brocade dress" }
+        ],
+        "stock": { "quantity": 6 }
+      },
+      {
+        "id": "var_003b",
+        "color": "Yellow",
+        "colorCode": "#FFD700",
+        "sizes": ["S", "M", "L", "XL", "2XL"],
+        "sku": "ARI-BRO-YEL-001",
+        "images": [
+          { "url": "./api/images/products/ariana-brocade-yellow-1.webp", "alt": "Ariana yellow brocade dress" }
+        ],
+        "stock": { "quantity": 9 }
+      }
+    ],
+    "rating": { "average": 4.8, "count": 95 },
+    "isFeatured": false,
+    "isNew": true,
+    "createdAt": "2026-06-18T10:00:00Z",
+    "updatedAt": "2026-06-22T12:00:00Z"
+  },
+
+  {
+    "id": "prod_004",
+    "slug": "tare-set",
+    "name": "Tare Set",
+    "description": "Stylish yellow two-piece traditional set with a premium finish.",
+    "brand": "Tare",
+    "category": "Sets",
+    "tags": ["two-piece", "traditional", "yellow"],
+    "price": {
+      "amount": 110000
+    },
+    "images": [
+      { "url": "./api/images/products/tare-yellow-set-1.webp", "alt": "Tare yellow set" }
+    ],
+    "variants": [
+      {
+        "id": "var_004a",
+        "color": "Yellow",
+        "colorCode": "#FFD700",
+        "sizes": ["S", "M", "L", "XL"],
+        "sku": "TAR-YEL-001",
+        "images": [],
+        "stock": { "quantity": 12 }
+      }
+    ],
+    "rating": { "average": 4.6, "count": 60 },
+    "isFeatured": true,
+    "isNew": false,
+    "createdAt": "2026-06-15T10:00:00Z",
+    "updatedAt": "2026-06-22T10:00:00Z"
+  },
+
+  {
+    "id": "prod_005",
+    "slug": "naoomi",
+    "name": "Naoomi",
+    "description": "Elegant green outfit with a classy modern silhouette.",
+    "brand": "Naoomi",
+    "category": "Dresses",
+    "tags": ["green", "fashion"],
+    "price": {
+      "amount": 70000
+    },
+    "images": [
+      { "url": "./api/images/products/naoomi-green-1.webp", "alt": "Naoomi green dress" }
+    ],
+    "variants": [
+      {
+        "id": "var_005a",
+        "color": "Green",
+        "colorCode": "#008000",
+        "sizes": ["S", "M", "L", "XL"],
+        "sku": "NAO-GRN-001",
+        "images": [],
+        "stock": { "quantity": 10 }
+      }
+    ],
+    "rating": { "average": 4.5, "count": 40 },
+    "isFeatured": false,
+    "isNew": true,
+    "createdAt": "2026-06-12T10:00:00Z",
+    "updatedAt": "2026-06-22T10:00:00Z"
+  },
+
+  {
+    "id": "prod_006",
+    "slug": "hara",
+    "name": "Hara",
+    "description": "Minimal light brown fashion piece with a premium appearance.",
+    "brand": "Hara",
+    "category": "Dresses",
+    "tags": ["brown", "minimal"],
+    "price": {
+      "amount": 60000
+    },
+    "images": [
+      { "url": "./api/images/products/hara-light-brown-1.webp", "alt": "Hara light brown dress" }
+    ],
+    "variants": [
+      {
+        "id": "var_006a",
+        "color": "Light Brown",
+        "colorCode": "#C4A484",
+        "sizes": ["XS", "S", "M", "L", "XL"],
+        "sku": "HAR-BRN-001",
+        "images": [],
+        "stock": { "quantity": 3 }
+      }
+    ],
+    "rating": { "average": 4.4, "count": 35 },
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-06-10T10:00:00Z",
+    "updatedAt": "2026-06-21T10:00:00Z"
+  },
+
+  {
+    "id": "prod_007",
+    "slug": "asake-short-set",
+    "name": "Asake Short Set",
+    "description": "Dark brown short set made for stylish casual occasions.",
+    "brand": "Asake",
+    "category": "Sets",
+    "tags": ["short set", "brown"],
+    "price": {
+      "amount": 100000
+    },
+    "images": [
+      { "url": "./api/images/products/asake-dark-brown-1.webp", "alt": "Asake dark brown short set" }
+    ],
+    "variants": [
+      {
+        "id": "var_007a",
+        "color": "Dark Brown",
+        "colorCode": "#654321",
+        "sizes": ["S", "M", "L", "XL"],
+        "sku": "ASA-BRN-001",
+        "images": [],
+        "stock": { "quantity": 0 }
+      }
+    ],
+    "rating": { "average": 4.9, "count": 150 },
+    "isFeatured": false,
+    "isNew": false,
+    "createdAt": "2026-06-05T10:00:00Z",
+    "updatedAt": "2026-06-20T10:00:00Z"
+  },
+
+  {
+    "id": "prod_008",
+    "slug": "ariyike",
+    "name": "Ariyike",
+    "description": "Premium marine and yellow luxury outfit for special events.",
+    "brand": "Ariyike",
+    "category": "Luxury",
+    "tags": ["luxury", "event", "premium"],
+    "price": {
+      "amount": 250000
+    },
+    "images": [
+      { "url": "./api/images/products/ariyike-marine-yellow-1.webp", "alt": "Ariyike marine yellow outfit" }
+    ],
+    "variants": [
+      {
+        "id": "var_008a",
+        "color": "Marine/Yellow",
+        "colorCode": "#003366",
+        "sizes": ["S", "M", "L", "XL", "2XL"],
+        "sku": "ARIY-MAR-001",
+        "images": [],
+        "stock": { "quantity": 4 }
+      }
+    ],
+    "rating": { "average": 5, "count": 50 },
+    "isFeatured": true,
+    "isNew": true,
+    "createdAt": "2026-06-01T10:00:00Z",
+    "updatedAt": "2026-06-23T10:00:00Z"
+  }
+]

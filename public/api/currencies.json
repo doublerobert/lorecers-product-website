@@ -1,0 +1,17 @@
+{
+  "NGN": {
+    "code": "NGN",
+    "symbol": "₦",
+    "locale": "en-NG"
+  },
+  "USD": {
+    "code": "USD",
+    "symbol": "$",
+    "locale": "en-US"
+  },
+  "EUR": {
+    "code": "EUR",
+    "symbol": "€",
+    "locale": "en-EU"
+  }
+}
