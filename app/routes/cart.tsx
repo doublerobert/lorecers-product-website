@@ -9,5 +9,5 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Cart() {
-  return <main className="">Cart</main>;
+  return <main className="flex-1">Cart</main>;
 }

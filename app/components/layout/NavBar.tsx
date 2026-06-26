@@ -1,19 +1,19 @@
 import { Link, useLocation } from "react-router";
 import { Search, Handbag, ArrowLeft } from "lucide-react";
 import { useSearch } from "~/lib/context/SearchContext";
-import styles from "~/styles/layout/utils.module.css";
+import styles from "~/styles/NavBar.module.css";
 import { useEffect, useState } from "react";
+
+const navLinks = [
+  { path: "/", name: "Home" },
+  { path: "/shop", name: "Shop" },
+  { path: "/feed", name: "Feed" },
+];
 
 export default function NavBar() {
   const { goToSearch } = useSearch();
   const location = useLocation();
   const [showNavLinks, setShowNavLinks] = useState(false);
-
-  const navLinks = [
-    { path: "/", name: "Home" },
-    { path: "/shop", name: "Shop" },
-    { path: "/feed", name: "Feed" },
-  ];
 
   function toggleNavLinks() {
     setShowNavLinks((prev) => !prev);
@@ -25,10 +25,10 @@ export default function NavBar() {
 
   return (
     <header
-      className={`${styles.layout} flex justify-between items-center gap-5 bg-white font-display`}
+      className={`${styles.layout} flex justify-between items-center gap-5 bg-white font-display shrink-0`}
     >
       <Link to={"/"}>
-        <div className="md:hidden min-w-22 h-11.25 flex items-center">
+        <div className="md:hidden min-w-20 h-11.25 flex items-center">
           <ArrowLeft className="text-accent-dark" />
         </div>
         <img
@@ -69,14 +69,14 @@ export default function NavBar() {
           onClick={goToSearch}
           className="cursor-pointer"
         >
-          <Search className="transition-colors hover:text-primary-strong" />
+          <Search className="transition-colors hover:text-primary-strong h-5 md:h-6" />
         </button>
         <Link
           to="/cart"
           aria-label="Cart"
           className="transition-colors hover:text-primary-strong"
         >
-          <Handbag />
+          <Handbag className="h-5 md:h-6" />
         </Link>
       </div>
     </header>

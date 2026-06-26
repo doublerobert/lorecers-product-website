@@ -9,5 +9,5 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Feed() {
-  return <main className="">Feed</main>;
+  return <main className="flex-1">Feed</main>;
 }

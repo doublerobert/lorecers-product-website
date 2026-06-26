@@ -20,7 +20,7 @@ export default function Shop() {
   }, [location.state, focusSearchInput]);
 
   return (
-    <main className="">
+    <main className="flex-1">
       Shop
       <div>
         <input

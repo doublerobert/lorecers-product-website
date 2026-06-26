@@ -9,5 +9,5 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-  return <main className="">Home</main>;
+  return <main className="flex-1">Home</main>;
 }
