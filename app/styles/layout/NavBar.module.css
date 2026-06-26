@@ -1,0 +1,5 @@
+.layout {
+  width: min(100% - 2rem, 75rem);
+  margin-inline: auto;
+  padding-block: 0.75rem;
+} 
