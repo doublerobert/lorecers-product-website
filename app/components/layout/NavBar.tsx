@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router";
 import { Search, Handbag, ArrowLeft } from "lucide-react";
 import { useSearch } from "~/lib/context/SearchContext";
-import styles from "~/styles/layout/NavBar.module.css";
+import styles from "~/styles/layout/utils.module.css";
 import { useEffect, useState } from "react";
 
 export default function NavBar() {
@@ -25,7 +25,7 @@ export default function NavBar() {
 
   return (
     <header
-      className={`${styles.layout} flex justify-between items-center gap-5 bg-white`}
+      className={`${styles.layout} flex justify-between items-center gap-5 bg-white font-display`}
     >
       <Link to={"/"}>
         <div className="md:hidden min-w-22 h-11.25 flex items-center">
